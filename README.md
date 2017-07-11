@@ -17,8 +17,8 @@ Dependencies
 
 API End Points
 ----
-
-### createOrganization
+- **Base URL: /v1**
+### 1. createOrganization
   - **Usage**
     - Save organization details in mongoDB
   - **Path**
@@ -47,7 +47,7 @@ API End Points
       - _In_ - payload (body)
       - _Default value_ - ALPHA
 
-### updateOrgDetails
+### 2. updateOrgDetails
   - **Usage**
     - Update existing organization details in mongoDB
   - **Path**
@@ -61,7 +61,7 @@ API End Points
       - _In_ - params
       - _Default value_ - None
 
-### getOrgList
+### 3. getOrgList
   - **Usage**
     - Retrieve registered organization name list form mongoDB
   - **Path**
@@ -71,7 +71,7 @@ API End Points
   - **Input Variables**
     - **None**
 
-### getOrgDetails
+### 4. getOrgDetails
   - **Usage**
     - Retrieve selected registered organization details mongoDB
   - **Path**
