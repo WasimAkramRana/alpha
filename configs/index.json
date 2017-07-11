@@ -1,0 +1,6 @@
+{
+  "appName"            : "ALPHA",
+  "appPort"            : 3005,
+  "appHostServer"      : "10.222.111.152",
+  "dbURI"              : "mongodb://10.222.111.150:27017/vasimDevAlpha_main" 
+}
